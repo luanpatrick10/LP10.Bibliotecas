@@ -25,5 +25,9 @@ namespace Biblioteca.Matematica
                 resultadoDaMultiplicacaoDasNotasComSeusPesos += notas[indiceDaNotaMultiplicadaPeloPeso] * pesoDasNotas[indiceDaNotaMultiplicadaPeloPeso];
             return resultadoDaMultiplicacaoDasNotasComSeusPesos / resultadoDaSomaDosPesos;
         }
+        public static float DiferencaDoProdutoAEBPorCED(float a, float b, float c, float d)
+        {
+            return ((a * b) - (d * c));
+        }
     }
 }
