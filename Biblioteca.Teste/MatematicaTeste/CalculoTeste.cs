@@ -1,10 +1,5 @@
 ﻿using Biblioteca.Matematica;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Biblioteca.Teste.MatematicaTeste
 {
@@ -13,8 +8,7 @@ namespace Biblioteca.Teste.MatematicaTeste
         [Test]
         public void CalcularMediaPonderadaDeDuasNotas()
         {
-            Calculos calculos = new Calculos();
-            Assert.AreEqual(10.00000, calculos.CalcularMediaPonderadaDeDuasNotas(10, 10, 10, 10, 5));
+            Assert.AreEqual(10.00000, Calculos.CalcularMediaPonderadaDeDuasNotas(10, 10, 10, 10, 5));
         }
     }
 }
